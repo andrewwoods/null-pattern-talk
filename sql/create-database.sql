@@ -1,0 +1,4 @@
+
+CREATE DATABASE seaphp_2017_jan 
+  DEFAULT CHARACTER SET = "utf8mb4";
+
