@@ -1,4 +1,4 @@
 
-CREATE DATABASE seaphp_2017_jan 
+CREATE DATABASE null_object_talk
   DEFAULT CHARACTER SET = "utf8mb4";
 

@@ -1,12 +1,17 @@
 <?php
 
-class NullAccount extends AbstractAccount {
+class NullAccount implements AccountInterface {
+
+    public function __construct($username = false, $email = false)
+    {
+        // Intentionally empty
+    }
 
     public function getUsername(){
         return '';
     }
 
-    public function getPassword(){
+    public function getEmail(){
         return '';
     }
 }

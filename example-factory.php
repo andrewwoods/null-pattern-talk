@@ -2,12 +2,17 @@
 
 require_once "static-account-factory.php";
 
-$admin = AccountFactory::create('admin', 'tessa', 'tessa@seaphp.com');
-$member = AccountFactory::create('author', 'awoods', 'andrew@seaphp.com');
-$unknown = AccountFactory::create('generic', 'jason', 'jason@bourne.com');
+$admin   = AccountFactory::create('admin', 'awoods', 'andrew@seaphp.com');
+$user    = AccountFactory::create('user', 'alena', 'alena@pdxphp.com');
+$unknown = AccountFactory::create('manager', 'jason', 'jason@bourne.com');
 
+echo 'The "admin" account' . PHP_EOL;
 print_r($admin);
-print_r($member);
+
+echo 'The "user" account' . PHP_EOL;
+print_r($user);
+
+echo 'The "unknown" account' . PHP_EOL;
 print_r($unknown);
 
 
